@@ -44,40 +44,40 @@ This project explores how brain wave activity during sleep may relate to memory 
 ### 🧠 EEG Feature Detection
 
 **Raw EEG Segment (Preprocessed)**  
-<img src="results/raw_filtered_eeg_example.png" alt="Raw EEG" width="500"/>
+<img src="Results/raw_filtered_eeg_example.png" alt="Raw EEG" width="500"/>
 
 **Detected Slow Wave**  
-<img src="results/slowwave.png" alt="Slow Wave" width="500"/>
+<img src="Results/slowwave.png" alt="Slow Wave" width="500"/>
 
 **Detected Spindle**  
-<img src="results/spindle.png" alt="Spindle" width="500"/>
+<img src="Results/spindle.png" alt="Spindle" width="500"/>
 
 ---
 
 ### 📉 Coupling Distributions
 
 **Histogram: % of Spindles Coupled and Coupling Time**  
-<img src="results/histograms_coupling_memory.png" alt="Coupling Histograms" width="600"/>
+<img src="Results/histograms_coupling_memory.png" alt="Coupling Histograms" width="600"/>
 
 ---
 
 ### 🔍 Correlation Analysis
 
 **Coupling Metrics vs Memory Recall**  
-<img src="results/heatmap_recall.png" alt="Heatmap Recall" width="600"/>
+<img src="Results/heatmap_recall.png" alt="Heatmap Recall" width="600"/>
 
 **Coupling Metrics vs Retention Scores**  
-<img src="results/heatmapretention.png" alt="Heatmap Retention" width="600"/>
+<img src="Results/heatmapretention.png" alt="Heatmap Retention" width="600"/>
 
 ---
 
 ### 📈 Individual Correlation Plots
 
 **Spindle Coupling vs Memory Score**  
-<img src="results/scatter_spindle_memory.png" alt="Spindle vs Memory" width="600"/>
+<img src="Results/scatter_spindle_memory.png" alt="Spindle vs Memory" width="600"/>
 
 **Coupling Time (N2/N3) vs Memory Score**  
-<img src="results/scatter_time_memory.png" alt="Coupling Time vs Memory" width="600"/>
+<img src="Results/scatter_time_memory.png" alt="Coupling Time vs Memory" width="600"/>
 
 ---
 
