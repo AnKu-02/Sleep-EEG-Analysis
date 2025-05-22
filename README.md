@@ -45,40 +45,40 @@ This project explores how brain wave activity during sleep may relate to memory 
 ### 🧠 EEG Feature Detection
 
 **Raw EEG Segment (Preprocessed)**  
-![Raw EEG](results/raw_filtered_eeg_example.png)
+![Raw EEG](Results/raw_filtered_eeg_example.png)
 
 **Detected Slow Wave**  
-![Slow Wave](results/slowwave.png)
+![Slow Wave](Results/slowwave.png)
 
 **Detected Spindle**  
-![Spindle](results/spindle.png)
+![Spindle](Results/spindle.png)
 
 ---
 
 ### 📉 Coupling Distributions
 
 **Histogram: % of Spindles Coupled and Coupling Time**  
-![Coupling Histograms](results/histograms_coupling_memory.png)
+![Coupling Histograms](Results/histograms_coupling_memory.png)
 
 ---
 
 ### 🔍 Correlation Analysis
 
 **Coupling Metrics vs Memory Recall**  
-![Heatmap Recall](results/heatmap_recall.png)
+![Heatmap Recall](Results/heatmap_recall.png)
 
 **Coupling Metrics vs Retention Scores**  
-![Heatmap Retention](results/heatmapretention.png)
+![Heatmap Retention](Results/heatmapretention.png)
 
 ---
 
 ### 📈 Correlation Plots
 
 **Coupling vs Memory Score**  
-![Spindle vs Memory](results/scatter_spindle_memory.png)
+![Spindle vs Memory](Results/scatter_spindle_memory.png)
 
 **Coupling Time (N2/N3) vs Memory Score**  
-![Coupling Time vs Memory](results/scatter_time_memory.png)
+![Coupling Time vs Memory](Results/scatter_time_memory.png)
 
 ---
 
