@@ -1,5 +1,5 @@
 ## **Analyzing the Impact of Slow-Wave and Spindle Coupling on Memory Consolidation During Sleep**  
-*A collaborative project between the University of Stuttgart and the University of Freiburg*
+*A collaborative project between University of Stuttgart and University of Freiburg*
 
 This project explores how brain wave activity during sleep may relate to memory performance. We used EEG data from ~1,900 participants (Basel Sleep Dataset) to study the timing of two types of brain rhythms—**slow waves** and **sleep spindles**—and whether their temporal alignment (**coupling**) supports memory consolidation.
 
