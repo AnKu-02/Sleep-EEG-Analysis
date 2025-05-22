@@ -1,6 +1,4 @@
-# 🧠 Sleep-EEG-Analysis
-
-**Analyzing the Impact of Slow-Wave and Spindle Coupling on Memory Consolidation During Sleep**  
+## **Analyzing the Impact of Slow-Wave and Spindle Coupling on Memory Consolidation During Sleep**  
 *A collaborative project between the University of Stuttgart and the University of Freiburg*
 
 This project explores how brain wave activity during sleep may relate to memory performance. We used EEG data from ~1,900 participants (Basel Sleep Dataset) to study the timing of two types of brain rhythms—**slow waves** and **sleep spindles**—and whether their temporal alignment (**coupling**) supports memory consolidation.
@@ -27,10 +25,11 @@ This project explores how brain wave activity during sleep may relate to memory 
 ## ⚙️ Methods & Tools
 
 - **Sleep Event Detection**:  
-  Used [`YASA`](https://github.com/raphaelvallat/yasa) (based on MNE) to detect slow waves and spindles
+  Used [`YASA`](https://github.com/raphaelvallat/yasa) (built on MNE) to detect slow waves and spindles
 
 - **Coupling Metric**:  
-  Counted spindles that peaked within ±1s of a slow-wave trough; normalized by N2/N3 sleep duration
+  Counted spindles that peaked within ±1s of a slow-wave trough  
+  Normalized coupling metrics by **N2/N3 sleep duration**
 
 - **Analysis**:  
   Applied **Pearson** and **Spearman correlation** to assess associations with memory scores
@@ -45,40 +44,40 @@ This project explores how brain wave activity during sleep may relate to memory 
 ### 🧠 EEG Feature Detection
 
 **Raw EEG Segment (Preprocessed)**  
-![Raw EEG](Results/raw_filtered_eeg_example.png)
+<img src="results/raw_filtered_eeg_example.png" alt="Raw EEG" width="500"/>
 
 **Detected Slow Wave**  
-![Slow Wave](Results/slowwave.png)
+<img src="results/slowwave.png" alt="Slow Wave" width="500"/>
 
 **Detected Spindle**  
-![Spindle](Results/spindle.png)
+<img src="results/spindle.png" alt="Spindle" width="500"/>
 
 ---
 
 ### 📉 Coupling Distributions
 
 **Histogram: % of Spindles Coupled and Coupling Time**  
-![Coupling Histograms](Results/histograms_coupling_memory.png)
+<img src="results/histograms_coupling_memory.png" alt="Coupling Histograms" width="600"/>
 
 ---
 
 ### 🔍 Correlation Analysis
 
 **Coupling Metrics vs Memory Recall**  
-![Heatmap Recall](Results/heatmap_recall.png)
+<img src="results/heatmap_recall.png" alt="Heatmap Recall" width="600"/>
 
 **Coupling Metrics vs Retention Scores**  
-![Heatmap Retention](Results/heatmapretention.png)
+<img src="results/heatmapretention.png" alt="Heatmap Retention" width="600"/>
 
 ---
 
-### 📈 Correlation Plots
+### 📈 Individual Correlation Plots
 
-**Coupling vs Memory Score**  
-![Spindle vs Memory](Results/scatter_spindle_memory.png)
+**Spindle Coupling vs Memory Score**  
+<img src="results/scatter_spindle_memory.png" alt="Spindle vs Memory" width="600"/>
 
 **Coupling Time (N2/N3) vs Memory Score**  
-![Coupling Time vs Memory](Results/scatter_time_memory.png)
+<img src="results/scatter_time_memory.png" alt="Coupling Time vs Memory" width="600"/>
 
 ---
 
